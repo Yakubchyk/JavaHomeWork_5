@@ -21,7 +21,7 @@ public class Lesen3 {
         int k = 1;
         for (int i = 0; i < arr.length; i++) {
             if (i % 2 == 1) {
-                for (int j = arr.length; j >= 0; j--) {
+                for (int j = arr[i].length - 1; j >= 0; j--) {
                     arr[i][j] += k;
                     k++;
                 }
