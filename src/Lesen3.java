@@ -10,6 +10,7 @@ import java.util.Scanner;
 Программа должна вывести полученный массив, отводя на вывод каждого числа ровно 3
 символа.
  */
+
 public class Lesen3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
